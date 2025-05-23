@@ -95,7 +95,7 @@ button_count:
 shifts_on_r0:
 	// con el valor actual de R0
 	LSL R0, R0, #3 // izquierda
-	ASR R0, R0, #3 // derecha
+	ASR R0, R0, #2 // derecha
 	B subrutina_aritmetica
 
 // (inciso 4) operaciones aritmeticas
